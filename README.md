@@ -25,7 +25,7 @@ The README found at ```cleaning/readme.md``` contains a detailed breakdown of th
 
 The cleaning process was primarily overseen by team members Brendan Mcmanus, Madison Woo, and Nikhita Singh.
 
-### Modeling
+## Modeling
 
 Models for this project were selected from various machine learning models that were introduced over the course of the semester.
 
