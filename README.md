@@ -43,7 +43,7 @@ models/iterative_v2.ipynb i.e. Trees/Random Forests (Brenden Mcmanus)
 
 Additionally, a master script containing all models contributed to the project is found in the following notebook:
 
-```models/models_IN_PROGRESS.ipynb```
+```models/models_ALL.ipynb```
 
 Which can be run from start to finish to recreate our project results.
 
@@ -59,13 +59,13 @@ The finalized clean dataset has been included with the repository in the followi
 
 This csv file is the final output of our main cleaning script ```cleaning/cleaning_COMPLETE.ipynb```, and has been included so interested parties are not required to run our cleaning scripts.
 
-Since the dataset is included in the repository, interested parties can either run each model notebook individually or use the master script ```models/models_IN_PROGRESS.ipynb``` to run a single notebook and view all outputs at once.
+Since the dataset is included in the repository, interested parties can either run each model notebook individually or use the master script ```models/models_ALL.ipynb``` to run a single notebook and view all outputs at once.
 
 For a complete recreation of our work, the following steps are recommended
 
 1) Load all dependencies from ```requirements.txt```
 2) Run all cells in ```cleaning/cleaning_COMPLETE.ipynb``` to recreate our complete dataset ```data/dataset_final.csv```
-3) Run individual model notebooks found in the subfolder ```modeling``` OR run the single notebook ```modeling/models_IN_PROGRESS.ipynb``` to view results.
+3) Run individual model notebooks found in the subfolder ```modeling``` OR run the single notebook ```modeling/models_ALL.ipynb``` to view results.
 
 **Note that due to the inclusion of a PyTorch neural network model, execution of the complete model master notebook may take upwards for 40 minutes if run on a non-CUDA enabled device. The script will check if CUDA is available on the current device and use it if possible, resulting in training times of approximately 7-8 minutes, rather than 20+ minutes.**
 
