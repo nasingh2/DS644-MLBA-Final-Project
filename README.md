@@ -36,9 +36,9 @@ The models trained for this project are found in the following notebooks, along 
 ```
 models/bagging_and_boosting.ipynb (Muhannad Alsahaf)
 models/deeplearning.ipynb (Gregory Knapp)
-models/intercept_only.ipynb (Nikhita Singh)
+models/intercept_only.ipynb (Madison Woo)
 models/lasso_ridge_model.ipynb (Nikhita Singh)
-models/iterative_v2.ipynb i.e. Trees/Random Forests (Brenden Mcmanus)
+models/iterative_v2.ipynb i.e. Trees/Random Forests (Brendan Mcmanus)
 ```
 
 Additionally, a master script containing all models contributed to the project is found in the following notebook:
